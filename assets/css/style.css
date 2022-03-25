@@ -338,7 +338,7 @@
 }
 
 .slider__img {
-    background-image: url(/assets/img/Slider.jpg);
+    background-image: url(/love-travel/assets/img/Slider.jpg);
     /* height: 150%; */
     height: 1311px;
     overflow: hidden;
@@ -430,7 +430,7 @@
 }
 
 .slider-search input[type="submit"] {
-    background-image: url(/assets/img/sub-icon/search.png);
+    background-image: url(/love-travel/assets/img/sub-icon/search.png);
     background-size: 18px;
     background-position: center;
     background-repeat: no-repeat;
@@ -649,7 +649,7 @@
 .holiday {
     padding-top: 50px !important;
     padding-bottom: 50px !important;
-    background-image: url(/assets/img/beach.jpg);
+    background-image: url(/love-travel/assets/img/beach.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -780,7 +780,7 @@
 }
 
 .best-beaches__slider-img {
-    background-image: url(/assets/img/Ha-long-bay.jpg);
+    background-image: url(/love-travel/assets/img/Ha-long-bay.jpg);
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
@@ -902,11 +902,11 @@
 }
 
 .discover__img-cities {
-    background-image: url(/assets/img/discorver-cities.jpg);
+    background-image: url(/love-travel/assets/img/discorver-cities.jpg);
 }
 
 .discover__img-nature {
-    background-image: url(/assets/img/discover-nature.jpg);
+    background-image: url(/love-travel/assets/img/discover-nature.jpg);
 }
 
 .discover__img::before {
