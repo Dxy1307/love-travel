@@ -1,0 +1,237 @@
+@media (max-width: 1200px) {
+    .header{
+        background-color: #555;
+    }
+
+    .header__content {
+        justify-content: center;
+        min-height: 126px;
+        padding: 10px 0;
+    }
+    
+    .header__logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header__list {
+        display: none;
+    }
+
+    .header__btn {
+        display: none;
+    }
+
+    .header-sort-bars {
+        flex: unset;
+        width: 100%;
+        text-align: center;
+    }
+
+    .side-bar-slide-out:checked ~ .side-bar {
+        transform: translateX(100%);
+    }
+
+    .header-sort-bars {
+        display: none;
+    }
+
+    .header-sort-bars-tablet-mobile {
+        display: block;
+    }
+
+    .slider__content {
+        margin: unset;
+    }
+
+    .best-sale-big {
+        display: none;
+    }
+
+    .best-sale-small {
+        display: none;
+    }
+
+    .relative-382 {
+        top: 0;
+    }
+
+    .display-none {
+        display: none;
+    }
+
+    .footer {
+        margin-top: 60px;
+    }
+
+    .footer__copy-right {
+        text-align: center;
+    }
+
+    .footer__copy-right--dxy {
+        text-align: center;
+    }
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1024px) {
+    .slider {
+        height: 1282.2px;
+        top: 0;
+    }
+    
+    .slider__content {
+        padding-top: 270px !important;
+    }
+    
+    .absolute-382 {
+        top: 0;
+    }
+    
+    .slider__img {
+        height: 1923.3px;
+        top: -382px;
+    }
+    
+    .pad-left-right-60 {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    
+    .pad-left-right-70 {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .best-beaches__slider-img {
+        height: 384px;
+    }
+
+    .tours-list {
+        margin-top: 30px;
+    }
+
+    .tours-list__content-text p {
+        margin: 10px 0;
+    }
+
+    .tours-item {
+        margin-top: 20px;
+    }
+
+    .tours-item:nth-child(1) {
+        margin-top: 0;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 730px) {
+    .app {
+        overflow-x: hidden;
+    }
+
+    .slider {
+        top: 0;
+        height: 1402.2px;
+    }
+
+    .absolute-382 {
+        top: 0;
+    }
+
+    .slider__content {
+        padding-top: 270px !important;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+
+    .slider-heading {
+        font-size: 5.4rem;
+        line-height: 5rem;
+    }
+
+    .slider-form {
+        padding: 0;
+    }
+
+    .slider__img {
+        height: 2103.3px;
+        top: -300px;
+    }
+
+    .slider-select {
+        letter-spacing: 0;
+    }
+
+    .holiday {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .holiday__text {
+        text-align: center;
+    }
+
+    .best-beaches__content {
+        text-align: center;
+    }
+
+    .best-beaches__content p {
+        text-align: center;
+    }
+
+    .best-beaches__content a {
+        font-size: 1.6rem;
+        line-height: 1.6rem;
+        padding: 16px 40px;
+    }
+
+    .best-beaches__slider-img {
+        height: 200px;
+    }
+
+    .best-beaches__slider-countdown {
+        margin-top: 0;
+    }
+
+    .tours-list {
+        margin-top: 30px;
+    }
+
+    .tours-list__content-text p {
+        margin: 10px 0;
+    }
+
+    .tours-item {
+        margin-top: 20px;
+        
+    }
+
+    .tours-item:nth-child(1) {
+        margin-top: 0;
+    }
+
+    .footer {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .best-beaches__content {
+        padding-right: 35px !important;
+    }
+
+    .best-beaches__slider {
+        padding-left: 35px !important;
+    }
+}
+
+@media (width: 768px) {
+    .holiday {
+        padding-left: 90px;
+        padding-right: 70px;
+    }
+}

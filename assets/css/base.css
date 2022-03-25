@@ -1,0 +1,418 @@
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+}
+
+*:focus {
+    outline:none !important
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+    line-height: 2rem;
+    color: #fff;
+}
+
+h5 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+h6 {
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 1.4rem;
+    line-height: 2.7rem;
+    color: #fff;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.mgtop-60 {
+    margin-top: 60px !important;
+}
+
+.pad-top-bot-12 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.relative-382 {
+    position: relative;
+    top: -382px;
+}
+
+.absolute-382 {
+    position: absolute;
+    top: 382px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.primary__btn {
+    border: none;
+    border-radius: 30px;
+    min-width: 130px;
+}
+
+.header__btn {
+    background-color: #ba71da;
+}
+
+.primary__btn-link {
+    padding: 12px 15px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.cost__btn {
+    border: none;
+    border-radius: 30px;
+    min-width: 140px;
+    margin-top: 18px;
+}
+
+.cost__btn-link {
+    padding: 8px 20px 6px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.berlin {
+    background: linear-gradient(to right, #ffd205 0%, #ff9b05 100%);
+}
+
+.hong-kong {
+    background: linear-gradient(to right, #f76570 0%, #f78d65 100%);
+}
+
+.san-francisco {
+    background: linear-gradient(to right, #ba71da 0%, #da717b 100%);
+}
+
+.tuscany {
+    background: linear-gradient(to right, #1bbc9b 0%, #1bbc63 100%);
+}
+
+.amsterdam {
+    background: linear-gradient(to right, #f3a46b 0%, #f3c96b 100%);
+}
+
+.phuket {
+    background: linear-gradient(to right, #14b9d5 0%, #14d5b1 100%);
+}
+
+.nav {
+    display: none;
+    list-style: none;
+    width: 190px;
+    position: absolute;
+    z-index: 10;
+}
+
+.nav-item {
+    background-color: #fff;
+    width: 100%;
+    border-bottom: 1px solid #f1f1f1;
+    box-shadow: 0px 2px 5px #f1f1f1;
+    position: relative;
+}
+
+.nav .nav-item:hover {
+    background-color: #f9f9f9;
+}
+
+.nav-item-link {
+    text-decoration: none;
+    font-size: 1.4rem;
+    display: block;
+    letter-spacing: 2px;
+    color: #9a9a9a;
+    width: 100%;
+    padding: 15px 25px;
+}
+
+.sub-nav {
+    z-index: 10;
+    display: none;
+    list-style: none;
+    width: 215px;
+    position: absolute;
+    top: 0;
+    left: calc(100%);
+    padding-left: 25px;
+}
+
+.nav-item.hover:hover .sub-nav {
+    display: block;
+}
+
+.sub-nav-item {
+    background-color: #fff;
+    width: 100%;
+    border-bottom: 1px solid #f1f1f1;
+    box-shadow: 0 2px 5px #f1f1f1;
+}
+
+.sub-nav-item:hover {
+    background-color: #f9f9f9;
+}
+
+.sub-nav-item-link {
+    text-decoration: none;
+    color: #9a9a9a;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    display: block;
+    width: 100%;
+    padding: 15px 25px;
+}
+
+.item-bonus {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    line-height: 1rem;
+    padding: 3px 5px;
+    border-radius: 3px;
+    float: right;
+}
+
+.item-hot {
+    background-color: #f76570;
+}
+
+.item-best {
+    background-color: #15b9d5;
+    line-height: 0.9rem;
+}
+
+.item-new {
+    background-color: #1abc9b;
+}
+
+.arrow-left {
+    float: right;
+    display: block;
+    border: 5px solid;
+    border-color: transparent transparent transparent #9a9a9a;
+    margin-top: 2px;
+}
+
+/* Hidden section  */
+.hidden-section-1 {
+    width: 100%;
+    float: left;
+    height: 1px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.hidden-section-5 {
+    width: 100%;
+    float: left;
+    height: 5px;
+}
+
+.hidden-section-10 {
+    width: 100%;
+    float: left;
+    height: 10px;
+}
+
+.hidden-section-15 {
+    width: 100%;
+    float: left;
+    height: 15px;
+}
+
+.hidden-section-20 {
+    width: 100%;
+    float: left;
+    height: 20px;
+}
+
+.hidden-section-25 {
+    width: 100%;
+    float: left;
+    height: 25px;
+}
+
+.hidden-section-30 {
+    width: 100%;
+    float: left;
+    height: 30px;
+}
+
+.hidden-section-35 {
+    width: 100%;
+    float: left;
+    height: 35px;
+}
+
+.hidden-section-40 {
+    width: 100%;
+    float: left;
+    height: 40px;
+}
+
+.hidden-section-45 {
+    width: 100%;
+    float: left;
+    height: 45px;
+}
+
+.hidden-section-50 {
+    width: 100%;
+    float: left;
+    height: 50px;
+}
+
+.hidden-section-55 {
+    width: 100%;
+    float: left;
+    height: 55px;
+}
+
+.hidden-section-60 {
+    width: 100%;
+    float: left;
+    height: 60px;
+}
+
+.hidden-section-65 {
+    width: 100%;
+    float: left;
+    height: 65px;
+}
+
+.hidden-section-80 {
+    width: 100%;
+    float: left;
+    height: 80px;
+}
+
+/* Tour */
+.tour {
+    position: relative;
+    float: left;
+    width: 264.6px;
+    height: 264.6px;
+    /* padding: 0 15px; */
+    left: 35px;
+}
+
+.tour__place {
+    width: 100%;
+    height: 100%;
+    /* padding: 0 20px; */
+}
+
+.tour__place-img {
+    width: 100%;
+}
+
+.tour__place-sub-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 30px;
+    /* left: 35px; */
+    /* right: 35px; */
+    color: #fff;
+    background: linear-gradient(to bottom, rgba(101,100,96,0) 0%,rgba(101,100,96,0.1) 60%,rgba(101,100,96,0.65) 100%);
+}
+
+.top-img {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.top-img img {
+    width: 35px;
+}
+
+.bottom-img {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
+
+.bottom-img h6 {
+    text-transform: uppercase;
+}
+
+.tour__destination {
+    position: absolute;
+    width: 264.6px;
+    height: 264.6px;
+    /* padding: 0 20px; */
+    top: 0;
+    opacity: 0;
+    transition: opacity ease-out 0.8s;
+}
+
+.destination-infor {
+    padding: 40px 30px;
+    background-color: #14b9d5;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.tour:hover .tour__destination {
+    opacity: 1;
+}
